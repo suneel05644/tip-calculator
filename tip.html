@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tip calculator</title>
+	<meta charset="utf-8">
+	<meta charset="utf-8" name="description" content="new website">
+	<meta name="sunil" content="sunil kumar">
+	<meta http-equiv="refresh" content="30">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="tip.css">
+	<script type="text/javascript" src="tip.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<h1>Tip calculator</h1>
+		<div id="calculator">
+			<form>
+				<p>How much was your will</p>
+				<p>$<input id="billamt" type="tex" placeholder="bill amount" name="">
+					<p>How was your service
+                     <p>
+                     	<select id="serviceQual">
+                     		<option disabled="0">--choose an option</option>
+                     		<option value="0.3">30&#37; &#45; outstanding</option>
+                     		<option value="0.2">20&#37; &#45; Good</option>
+                     		<option value="0.15">15&#37; &#45; it was okh</option>
+                     		<option value="0.1">10&#37; &#45;
+                     		Bad</option>
+                     		<option value="0.05">05&#37; &#45; Terrible</option>
+                     	</select>
+
+                     </p>
+					</p>
+				</p>
+			</form>
+			<p>How many people are sharing the bill</p>
+			<input id="peopleamt" type="text" name="" placeholder="number of people">people
+			<button type="button" id="calculate">calculate</button>
+
+		</div>
+		<!--------calculator end ------>
+		<div id="totalTip">
+			<sup>$</sup>
+			<span id="tip">0.00</span>
+			<small id="each">each</small>
+		</div>
+		<!--------totl tip end ------>
+	</div>
+
+</body>
+</html>
